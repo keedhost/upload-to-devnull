@@ -1,0 +1,17 @@
+`upload-to-devnull` is the simple python utility for the testing upload perfomance for the CPE.
+
+This script starts a simply web server that can receive files not related to any size and redirect it to `/dev/null` on the server side. 
+
+According to this you can upload 1G, 10G, 100G or 1T file and don't think about size.
+
+usage:
+```
+chmod +x ./upload-to-devnull.py
+./upload-to-devnull.py
+curl --form file=@10G-TestFile.bin http://server:8000/upload
+```
+
+If the port is busy, you can change it
+
+Best regards,
+Andrii Kondratiev
