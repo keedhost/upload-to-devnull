@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 """
 upload-to-devnull is the utility for the test upload perfomance for the CPE.

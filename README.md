@@ -6,6 +6,7 @@ According to this you can upload 1G, 10G, 100G or 1T file and don't think about 
 
 usage:
 ```
+pip install -r requirements.txt
 chmod +x ./upload-to-devnull.py
 ./upload-to-devnull.py
 curl --form file=@10G-TestFile.bin http://server:8000/upload
